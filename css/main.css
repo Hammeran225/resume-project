@@ -1,1 +1,32 @@
-/* Place CSS styles here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+nav {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+}
+
+nav .dropdown {
+  position: relative;
+}
+
+nav .dropdown .dropbtn {
+  background-color: #fff;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: background-color 0.
+}
